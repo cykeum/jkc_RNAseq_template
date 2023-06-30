@@ -9,10 +9,10 @@ library(biomaRt)
 library(dplyr)
 
 ### data loading
-fl <- read.csv("./data/FL.csv")
-jz <- read.csv("./data/JZ.csv")
-fp <- read.csv("./data/FP.csv")
-age <- read.csv("./data/AGE.csv")
+fl <- read.csv("../rawdata/FL.csv")
+jz <- read.csv("../rawdata/JZ.csv")
+fp <- read.csv("../rawdata/FP.csv")
+age <- read.csv("../rawdata/AGE.csv")
 
 
 ### filter - only top 500 highly expressed genes
@@ -128,10 +128,10 @@ mismatch.age<-resdf.age[!(resdf.age$MGI_symbol_manual%in%resdf.age$MGI_symbol_bm
 
 
 ### export
-write.csv(resdf.fl,'./data/biomartAnnotated_FL.csv',row.names = FALSE)
-write.csv(resdf.fl,'./data/biomartAnnotated_JZ.csv',row.names = FALSE)
-write.csv(resdf.fl,'./data/biomartAnnotated_FP.csv',row.names = FALSE)
-write.csv(resdf.fl,'./data/biomartAnnotated_AGE.csv',row.names = FALSE)
+write.csv(resdf.fl,'./res/biomartAnnotated_FL.csv',row.names = FALSE)
+write.csv(resdf.fl,'./res/biomartAnnotated_JZ.csv',row.names = FALSE)
+write.csv(resdf.fl,'./res/biomartAnnotated_FP.csv',row.names = FALSE)
+write.csv(resdf.fl,'./res/biomartAnnotated_AGE.csv',row.names = FALSE)
 
 
 ###############################################################################################
