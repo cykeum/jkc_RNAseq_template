@@ -9,10 +9,10 @@ library(biomaRt)
 library(dplyr)
 
 ### data loading
-fl <- read.csv("../rawdata/FL.csv")
-jz <- read.csv("../rawdata/JZ.csv")
-fp <- read.csv("../rawdata/FP.csv")
-age <- read.csv("../rawdata/AGE.csv")
+fl <- read.csv("./rawdata/FL.csv")
+jz <- read.csv("./rawdata/JZ.csv")
+fp <- read.csv("./rawdata/FP.csv")
+age <- read.csv("./rawdata/AGE.csv")
 
 
 ### filter - only top 500 highly expressed genes
