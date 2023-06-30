@@ -129,9 +129,9 @@ mismatch.age<-resdf.age[!(resdf.age$MGI_symbol_manual%in%resdf.age$MGI_symbol_bm
 
 ### export
 write.csv(resdf.fl,'./res/biomartAnnotated_FL.csv',row.names = FALSE)
-write.csv(resdf.fl,'./res/biomartAnnotated_JZ.csv',row.names = FALSE)
-write.csv(resdf.fl,'./res/biomartAnnotated_FP.csv',row.names = FALSE)
-write.csv(resdf.fl,'./res/biomartAnnotated_AGE.csv',row.names = FALSE)
+write.csv(resdf.jz,'./res/biomartAnnotated_JZ.csv',row.names = FALSE)
+write.csv(resdf.fp,'./res/biomartAnnotated_FP.csv',row.names = FALSE)
+write.csv(resdf.age,'./res/biomartAnnotated_AGE.csv',row.names = FALSE)
 
 
 ###############################################################################################
