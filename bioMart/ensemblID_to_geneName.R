@@ -1,6 +1,6 @@
-#### Date: Jun 28, 2023
+#### Date: August 2023
 #### Title: Conversion of ensemble IDs to common gene names using biomaRT
-#### Name: Cheayeong
+#### Name: Cheayeong Keum
 #### Data used: RNA-seq practice round
 
 

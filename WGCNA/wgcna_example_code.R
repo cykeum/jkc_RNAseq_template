@@ -1,4 +1,4 @@
-### Date: Aug 16, 2023
+### Date: Aug 19, 2023
 ### Title: pipeline for weighted gene coexpression network analysis (WGCNA)
 ### Name: Cheayeong Keum
 
