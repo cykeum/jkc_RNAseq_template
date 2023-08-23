@@ -1,0 +1,9 @@
+﻿SampleName,Age,Condition,Tissue
+Sample1,E10.5,control,Placenta
+Sample2,E10.5,treated,Placenta
+Sample3,E12.5,control,Placenta
+Sample4,E12.5,treated,Placenta
+Sample5,E14.5,control,Placenta
+Sample6,E14.5,treated,Placenta
+Sample7,E16.5,control,Placenta
+Sample8,E16.5,treated,Placenta
