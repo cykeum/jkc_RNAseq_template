@@ -256,7 +256,7 @@ write.csv(geneInfo, file = "./WGCNA/geneInfo_for_Control.csv") # change the file
 tom <- TOMsimilarityFromExpr(input_mat, power=my_power)
 
 #### select a module that you want to visualize its network
-mod <- "blue" # change this to be a specific module. ex) "blue"
+mod <- "blue" # change this to be a specific module. ex) "brown"
 
 #### Select the module genes
 geneID.whole<-names(input_mat)
