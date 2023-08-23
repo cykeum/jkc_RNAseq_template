@@ -7,11 +7,6 @@
 library(WGCNA)
 library(dplyr)
 library(CorLevelPlot)
-# library(stringr)
-# library(ggplot2)
-# library(tidyverse)
-# library(tidyr)
-# library(readr)
 
 ############ load data #############
 #### Expression profile
